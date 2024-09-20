@@ -1,0 +1,256 @@
+/* General styling for the form inputs */
+.signup-form input, .signup-form textarea {
+  width: 100%; /* Default width for all inputs */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Specific style for the password input field */
+.signup-form input[type="password"], .signup-form input[name="password"], .signup-form input[name="confirmPassword"] {
+  width: 100%; /* Increase width for password fields */
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Style the Show/Hide button to be shorter */
+.signup-form .toggle-button {
+  width: 15%; /* Shorten the button */
+  background-color: grey;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  font-size: 12px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* General container styles */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f7f6;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Background shapes for design */
+.background-shape {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.3;
+}
+
+.shape1 {
+  width: 300px;
+  height: 300px;
+  background-color: #00aaff;
+  top: -150px;
+  left: -150px;
+}
+
+.shape2 {
+  width: 200px;
+  height: 200px;
+  background-color: #ff5722;
+  bottom: 50px;
+  right: 50px;
+}
+
+.shape4 {
+  width: 150px;
+  height: 150px;
+  background-color: #673ab7;
+  top: 100px;
+  right: -50px;
+}
+
+.shape5 {
+  width: 250px;
+  height: 250px;
+  background-color: #8bc34a;
+  bottom: -125px;
+  left: -125px;
+}
+
+.shape6 {
+  width: 120px;
+  height: 120px;
+  background-color: #ffc107;
+  bottom: 150px;
+  right: 150px;
+}
+
+/* Form and button styling */
+.signup-form {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  z-index: 2;
+}
+
+.signup-form h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.signup-form div {
+  margin-bottom: 20px;
+}
+
+.signup-form label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.signup-form input, .signup-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333;
+}
+
+.signup-form textarea {
+  height: 80px;
+  resize: none;
+}
+
+.signup-form input:focus, .signup-form textarea:focus {
+  border-color: #00aaff;
+  outline: none;
+}
+
+.signup-form button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background-color: #00aaff;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-form button:hover {
+  background-color: #008ecc;
+}
+
+/* Back button styling */
+.back-button {
+  background-color: #f44336;
+  color: #fff;
+  margin-right: 10px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.back-button:hover {
+  background-color: #d32f2f;
+}
+
+/* Google login button */
+.signup-form .google-btn {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Form button container */
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* User type selection buttons */
+.user-type-selection {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.user-type-selection h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.user-type-selection .btn-primary {
+  background-color: #00aaff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.user-type-selection .btn-secondary {
+  background-color: #ff5722;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.user-type-selection .btn:hover {
+  opacity: 0.85;
+}
+
+.user-type-selection .btn-primary:hover {
+  background-color: #008ecc;
+}
+
+.user-type-selection .btn-secondary:hover {
+  background-color: #e64a19;
+}
+
+/* Link to login */
+.user-type-selection a {
+  text-decoration: none;
+  color: #00aaff;
+}
+
+.user-type-selection a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .signup-form, .user-type-selection {
+    padding: 20px;
+  }
+
+  .form-buttons {
+    flex-direction: column;
+  }
+
+  .back-button {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .signup-form button {
+    width: 100%;
+  }
+}

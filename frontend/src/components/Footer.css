@@ -1,0 +1,139 @@
+.footer {
+    background-color: #313131;
+    color: rgb(255, 255, 255);
+    padding: 40px 0;
+    position: relative;
+    overflow: hidden; /* Ensures that shapes don't overflow outside the footer */
+    z-index: 0; /* Ensures that the footer is below other content */
+  }
+  
+  .footer h5 {
+    color: #cac5cf;
+    margin-bottom: 50px;
+  }
+  
+  .footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer ul li a {
+    color: #adf9fc;
+    text-decoration: none;
+  }
+  
+  .footer ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer .list-inline-item a {
+    color: #5a3175;
+    text-decoration: none;
+  }
+  
+  .footer .list-inline-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer hr {
+    background-color: #f5950e; /* Color of the line */
+    height: 2px; /* Thickness of the line */
+    border: none; /* Remove default border */
+    width: 80%; /* Set to desired width (e.g., 80%) */
+    margin: 20px auto; /* Center the line and add vertical spacing */
+  }
+  
+  .footer p {
+    margin-top: 30px;
+  }
+  
+  /* Form styling */
+  .message-form .form-control {
+    margin-bottom: 15px;
+  }
+  
+  .message-form .btn {
+    background-color: #33353a;
+    color: white;
+  }
+  
+  .footer-logo {
+    width: 100px;
+    margin-bottom: 15px;
+  }
+  /* Social Links Styling */
+  .social-links {
+    margin-top: 20px;
+  }
+  
+  .social-links a {
+    margin-right: 10px;
+    color: #0858ec;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    color: #ffffff;
+  }
+  
+  /* Background Animation */
+  .footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('C:/Users/SUBHA SHREE SV/OneDrive/ドキュメント/All_Folder/Hackathon/SIH24/f_sih/frontend/src/footer.jpg') no-repeat center center/cover;
+    opacity: 0.9;
+    z-index: -1; /* Ensure the background is behind the shapes and content */
+  }
+  
+  /* Shape styling and animation */
+  .shape {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.4;
+    z-index: -1; /* Ensure shapes are behind the footer content */
+    animation: moveShape 20s infinite ease-in-out;
+  }
+  
+  /* Basic Shapes */
+  .circle {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(12, 221, 236, 0.5);
+  }
+  
+  .square {
+    width: 50px;
+    height: 50px;
+    background-color: #ff9807;
+  }
+  
+  
+  
+  
+  /* Positioning of shapes within the footer */
+  .shape:nth-child(1) { top: 10%; left: 10%; }
+  .shape:nth-child(2) { top: 10%; right: 10%; }
+  .shape:nth-child(3) { top: 50%; left: 5%; }
+  .shape:nth-child(4) { top: 100%; right: 10%; }
+  
+  /* Shape Animations */
+  @keyframes moveShape {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(200px, 15px);
+    }
+    100% {
+      transform: translate(10, 10);
+    }
+  }

@@ -1,0 +1,205 @@
+
+
+/* Styling for responsive screens */
+@media (max-width: 768px) {
+  .login-form {
+    width: 90%; /* Form width adjusts for smaller screens */
+    padding: 20px; /* Reduce padding on smaller devices */
+  }
+}
+
+
+/* Heading for the login form */
+
+/* Form group (label + input field) */
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styling for labels */
+.form-group label {
+  margin-bottom: 5px;
+  font-size: 16px; /* Larger font for readability */
+  font-weight: 500;
+  color: #555;
+}
+
+/* Styling for input fields */
+.form-control {
+  padding: 12px;
+  border-radius: 8px; /* Rounded edges */
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Focus effect for input fields */
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Focus effect */
+  outline: none;
+}
+
+/* Password input and toggle button container */
+.password-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+/* Show/Hide password button */
+.show-password-btn {
+  margin-left: 10px;
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for show password button */
+.show-password-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Login button */
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for login button */
+.login-btn:hover {
+  background-color: #218838;
+}
+
+/* Center text utility */
+.text-center {
+  text-align: center;
+}
+
+/* Utility class for margin */
+.mt-3 {
+  margin-top: 1rem;
+}
+
+/* Form button container */
+.form-buttons {
+  margin-top: 20px;
+}
+/* Container for the login page */
+.login-container {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  height: 70vh; /* Full height of the viewport */
+  background-color: #f5f7fa; /* Light background */
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+/* Styling for the login form */
+.login-form {
+  background-color: white;
+  padding: 40px; /* Increased padding for balance */
+  border-radius: 12px; /* Rounded corners */
+  width: 1000px; /* Full width for smaller screens */
+  max-width: 500px; /* Max width for larger screens */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Drop shadow */
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* More space between form elements */
+  position: relative;
+  z-index: 1; /* Bring the form above the shapes */
+}
+
+/* Background Shapes */
+.background-shape {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.4; /* Adjust opacity for subtlety */
+  animation: float 6s ease-in-out infinite; /* Animation for floating effect */
+}
+
+/* New Shapes */
+.shape1 {
+  width: 300px;
+  height: 300px;
+  background-color: #007bff;
+  top: -150px;
+  left: -100px;
+}
+
+.shape2 {
+  width: 200px;
+  height: 200px;
+  background-color: #28a745;
+  bottom: -100px;
+  right: -50px;
+}
+
+.shape3 {
+  width: 150px;
+  height: 150px;
+  background-color: #ff5733; /* New color */
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center it */
+}
+
+.shape4 {
+  width: 250px;
+  height: 250px;
+  background-color: #ffc107; /* New color */
+  bottom: 20%;
+  left: 20%;
+}
+
+.shape5 {
+  width: 100px;
+  height: 100px;
+  background-color: #6f42c1; /* New color */
+  top: 60%;
+  right: 10%;
+}
+
+.shape6 {
+  width: 180px;
+  height: 180px;
+  background-color: #17a2b8; /* New color */
+  bottom: 30%;
+  left: 70%;
+}
+
+/* Animation for floating effect */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Optional: Add transitions for hover effects */
+.login-form {
+  transition: transform 0.3s ease;
+}
+
+.login-form:hover {
+  transform: scale(1.02); /* Slightly enlarge on hover */
+}

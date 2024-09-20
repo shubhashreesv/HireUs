@@ -1,0 +1,122 @@
+/* General Home Container */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  background-color: #f5f7fa; /* Light background color */
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+}
+
+/* Main Content Area */
+.main-content {
+  text-align: center; /* Center align text */
+  max-width: 800px; /* Limit width for better readability */
+  margin: 0 auto; /* Center container */
+  background-color: black;
+}
+
+/* Content Wrapper */
+.content-wrapper {
+  padding: 40px; /* Space around content */
+  background-color: #ffffff; /* White background for content */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Headings */
+h1 {
+  font-size: 32px; /* Main heading size */
+  font-weight: 700; /* Bold text */
+  color: #34495e; /* Darker text color */
+  margin: 20px 0; /* Space above and below */
+}
+
+h2 {
+  font-size: 24px; /* Subheading size */
+  color: #404f46; /* Green color */
+  margin-bottom: 15px; /* Space below */
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 18px; /* Subtitle size */
+  color: #7f8c8d; /* Grey color */
+  margin-bottom: 30px; /* Space below */
+}
+
+/* Browse Button */
+.browse-button {
+  background-color: #3b474f; /* Button color */
+  color: white; /* Text color */
+  padding: 12px 20px; /* Button padding */
+  border: none; /* Remove border */
+  border-radius: 30px; /* Rounded corners */
+  font-size: 16px; /* Button text size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+.browse-button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.shape {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.4;
+  z-index: -1; /* Ensure shapes are behind the footer content */
+  animation: moveShape 20s infinite ease-in-out;
+}
+
+/* Basic Shapes */
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(12, 221, 236, 0.5);
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  background-color: #ff9807;
+}
+
+
+
+
+/* Positioning of shapes within the footer */
+.shape:nth-child(1) { top: 10%; left: 10%; }
+.shape:nth-child(2) { top: 10%; right: 10%; }
+.shape:nth-child(3) { top: 50%; left: 5%; }
+.shape:nth-child(4) { top: 100%; right: 10%; }
+
+/* Shape Animations */
+@keyframes moveShape {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(200px, 15px);
+  }
+  100% {
+    transform: translate(10, 10);
+  }
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px; /* Adjust font size for smaller screens */
+  }
+
+  h2 {
+    font-size: 22px; /* Adjust font size for smaller screens */
+  }
+
+  .browse-button {
+    width: 100%; /* Full width for button on mobile */
+  }
+}

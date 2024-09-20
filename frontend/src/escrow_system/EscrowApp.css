@@ -1,0 +1,16 @@
+body{
+    background-color:rgb(255, 255, 255);
+    font-family: 'Arial',sans-serif;
+}
+.form-group{
+    margin-bottom:1.5rem;
+}
+button{
+    font-size:1rem;
+    padding:0.75rem;
+}
+.alert{
+    padding : 0.75rem;
+    font-size:1rem;
+    margin-top:20px;
+}

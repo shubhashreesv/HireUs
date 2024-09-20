@@ -1,0 +1,40 @@
+.experience-container {
+    margin-top: 30px;
+  }
+  
+  .experience-item {
+    background-color: #f9f9f9;
+    border-left: 4px solid #2980b9;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experience-item h4 {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .company {
+    font-weight: bold;
+    color: #2980b9;
+  }
+  
+  .duration, .location {
+    font-size: 14px;
+    color: #95a5a6;
+  }
+  
+  .experience-description {
+    margin-top: 10px;
+    color: #666;
+  }
+  
+  .responsibilities {
+    margin-top: 10px;
+    list-style-type: none;
+  }
+  
+  .responsibilities li {
+    color: #555;
+    margin-bottom: 5px;
+  }

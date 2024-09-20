@@ -1,0 +1,37 @@
+.profile-header-container {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 100px;
+
+  }
+  
+  .profile-image {
+    border-radius: 50%;
+    width: 230px;
+    height: 150px;
+  }
+  
+  .profile-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .profile-title {
+    font-size: 18px;
+    color: gray;
+  }
+  
+  .profile-bio {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .social-links {
+    margin-top: 10px;
+  }
+  
+  .social-links a {
+    margin-right: 10px;
+    color: #2980b9;
+    font-size: 20px;
+  }

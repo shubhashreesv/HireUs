@@ -1,0 +1,40 @@
+.more-page {
+    padding: 40px 20px;
+    background-color: #f8f3f3;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: left;
+    margin-top:100px;
+  }
+  
+  .more-page h1 {
+    color: #8e44ad;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .more-page p {
+    font-size: 1.2rem;
+    color: #a58de6;
+    margin-bottom: 30px;
+  }
+  
+  .more-page ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .more-page ul li {
+    background-color: #2a292b;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    color: #ffffff;
+  }
+  
+  .more-page ul li:hover {
+    background-color: #aa8cf1;
+  }

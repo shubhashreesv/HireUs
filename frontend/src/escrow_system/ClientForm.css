@@ -1,0 +1,53 @@
+.client-form-container {
+    display: flex;
+    background-image: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-52630.jpg');
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    background-color: #f8f9fa; /* Light background color for contrast */
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif; /* Use a clean, modern font */
+    color: #333; /* Dark text color for readability */
+  }
+  
+  .form-group {
+    max-width: 500px; /* Limit the form width */
+    width: 100%;
+    background-color: #fff; /* White background for the form */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .form-label {
+    font-weight: bold;
+    color: #495057; /* Darker text color for labels */
+  }
+  
+  .form-control {
+    border-radius: 4px; /* Rounded corners for inputs */
+    border: 1px solid #ced4da; /* Light border color */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border-color: #007bff; /* Border color to match the button */
+    padding: 10px 20px; /* Add padding for button */
+    border-radius: 4px; /* Rounded corners for button */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    border-color: #004085; /* Darker border color on hover */
+  }
+  
+  .alert {
+    border-radius: 4px; /* Rounded corners for alert */
+  }

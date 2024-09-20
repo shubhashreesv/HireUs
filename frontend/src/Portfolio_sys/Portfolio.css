@@ -1,0 +1,25 @@
+.portfolio-container {
+    margin-top: 100px;
+
+  }
+  
+  .portfolio-item {
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .portfolio-item h4 {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .portfolio-item p {
+    color: #777;
+  }

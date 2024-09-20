@@ -1,0 +1,20 @@
+.fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .fixed-button button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .fixed-button button:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,0 +1,646 @@
+/* General Container Setup */
+.add-work-btn {
+    background-color: #28a745; /* Green for Add button */
+    color: #fff; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Button padding */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth background color transition */
+  }
+  
+  .add-work-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  .work-list {
+    margin-top: 20px; /* Space above work list */
+  }
+  
+  .work-item {
+    display: flex;
+    justify-content: space-between; /* Space between work description and button */
+    align-items: center; /* Center items vertically */
+    border-bottom: 1px solid #e1e1e1; /* Light border below each item */
+    padding: 10px 0; /* Padding above and below each item */
+  }
+  
+  .freelancing-description {
+    font-size: 16px; /* Font size for description */
+    color: #555; /* Medium gray text */
+    flex-grow: 1; /* Take available space */
+    margin-right: 10px; /* Space between description and button */
+  }
+  
+.profile-page-container {
+    display: flex;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 80px;
+  }
+  
+  .left-sidebar {
+    width: 30%; /* Adjust based on your layout */
+    padding: 20px;
+    background-color: #ffffff; /* White background for the sidebar */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-section {
+    text-align: center; /* Center content in the profile section */
+    padding: 15px;
+  }
+  
+  .profile-avatar {
+    margin-bottom: 10px; /* Space below the avatar */
+  }
+  
+  .profile-name {
+    font-size: 24px;
+    margin: 10px 0; /* Margin for spacing */
+    color: #333; /* Darker text for contrast */
+  }
+  
+  .description-container {
+    margin-top: 20px; /* Space above the description */
+  }
+  
+  .profile-description-box {
+    width: 100%;
+    height: 100px; /* Set a height for the textarea */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    resize: none; /* Prevent resizing */
+  }
+  
+  .save-description-btn,
+  .edit-description-btn {
+    background-color: #007bff; /* Primary color for buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover */
+    margin-top: 10px; /* Space above buttons */
+  }
+  
+  .save-description-btn:hover,
+  .edit-description-btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .saved-description {
+    margin-top: 10px; /* Space above the saved description */
+    font-size: 16px;
+    color: #555; /* Lighter color for saved description */
+  }
+  
+.profile-header {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-section {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.links-section h4 {
+  margin-bottom: 10px;
+}
+
+.portfolio-section,
+.testimonials-section {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+   
+.ratings-community {
+    background-color: #f1f1f1; /* Light gray background for contrast */
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center; /* Center text for a balanced look */
+    margin-bottom: 20px; /* Space below the ratings section */
+  }
+  
+  .average-rating, .community-collaborations {
+    margin: 5px 0; /* Space between the rating and collaborations */
+    color: #333; /* Dark text for readability */
+  }
+  
+  .links-section {
+    text-align: center; /* Center the connect title and social links */
+    margin-top: 20px; /* Space above the links section */
+  }
+  
+  .connect-title {
+    font-size: 18px; /* Slightly larger font for emphasis */
+    color: #333; /* Dark text color */
+    margin-bottom: 10px; /* Space below the title */
+  }
+  
+  .social-links {
+    display: flex; /* Flex layout for social icons */
+    justify-content: center; /* Center social icons */
+    gap: 15px; /* Space between icons */
+  }
+  
+  .social-icon {
+    font-size: 24px; /* Icon size */
+    color: #007bff; /* Primary color for icons */
+    transition: color 0.3s; /* Smooth transition for hover */
+  }
+  
+  .social-icon:hover {
+    color: #0056b3; /* Darker shade on hover */
+  }
+  
+   
+   
+  .main-content {
+    padding: 20px; /* Add padding to the main content */
+  }
+  
+  .freelancing-work {
+    background-color: #ffffff; /* White background for clarity */
+    border: 1px solid #e1e1e1; /* Light border for definition */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Inner padding for content */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-bottom: 20px; /* Space below the section */
+  }
+  
+  .freelancing-title {
+    font-size: 24px; /* Larger title size */
+    margin-bottom: 15px; /* Space below the title */
+    color: #333; /* Dark text color */
+  }
+  
+  .textarea-container {
+    display: flex;
+    flex-direction: column; /* Stack textarea and button */
+  }
+  
+  .freelancing-textarea {
+    height: 100px; /* Set a height for the textarea */
+    border: 1px solid #ccc; /* Light border for the textarea */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Inner padding */
+    font-size: 16px; /* Font size for better readability */
+    resize: none; /* Disable resizing */
+    margin-bottom: 10px; /* Space below textarea */
+    outline: none; /* Remove outline on focus */
+    transition: border 0.3s; /* Smooth transition for border color */
+  }
+  
+  .freelancing-textarea:focus {
+    border-color: #007bff; /* Change border color on focus */
+  }
+  
+  .save-freelancing-btn {
+    background-color: #007bff; /* Primary button color */
+    color: #fff; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Button padding */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+  }
+  
+  .save-freelancing-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .freelancing-content {
+    display: flex;
+    flex-direction: column; /* Stack description and button */
+  }
+  
+  .freelancing-description {
+    font-size: 16px; /* Font size for description */
+    color: #555; /* Medium gray text */
+    margin-bottom: 10px; /* Space below description */
+  }
+  
+  .edit-freelancing-btn {
+    background-color: transparent; /* No background */
+    color: #007bff; /* Link color */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor */
+    text-align: left; /* Align text to the left */
+    font-size: 16px; /* Font size for button */
+  }
+  
+  .edit-freelancing-btn:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+   
+   
+   /* Textarea Container Styling */
+   .textarea-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+   }
+   
+   .profile-description-box,
+   .freelancing-textarea {
+    resize: vertical;
+   }
+   
+   .profile-description-box {
+    width: 125%;
+    height: 200%;
+    padding-right: 120px;
+    box-sizing: border-box;
+   }
+   
+   .save-description-btn,
+   .save-freelancing-btn,
+   .save-tech-stack-btn {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   }
+   
+   .save-description-btn:hover,
+   .save-freelancing-btn:hover,
+   .save-tech-stack-btn:hover {
+    background-color: #0056b3;
+   }
+   
+   .save-description-btn {
+    position: absolute;
+    right: -60px;
+    bottom: -35px;
+   }
+   
+   .save-freelancing-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 60px;
+   }
+   
+   /* Saved Description Styling */
+   .saved-description {
+    margin-top: 20px;
+   }
+   
+   /* Left Section Styling */
+   .left-section {
+    width: 30%;
+    padding: 10px;
+   }
+   
+   /* Custom Description Button Inside Text Box */
+   .custom-description {
+    position: relative;
+   }
+   
+   .custom-description textarea {
+    width: 100%;
+    padding-right: 60px;
+   }
+   
+   .custom-description button {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+   }
+   
+   /* Education Section Styling */
+   .education-section {
+    margin-top: 20px;
+   }
+   
+   .education-header {
+    cursor: pointer;
+   }
+   
+   .education-field {
+    margin-bottom: 10px;
+   }
+   
+   .education-field h5 {
+    margin-bottom: 10px;
+   }
+   
+   .vertical-row {
+    display: flex;
+    flex-direction: column;
+   }
+   
+   .vertical-row label {
+    margin-bottom: 5px;
+   }
+   
+   .vertical-row input,
+   .vertical-row select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+   }
+   
+   .vertical-row input[type="number"] {
+    width: 350px;
+   }
+   
+   .vertical-row input[type="text"],
+   .vertical-row select {
+    width: 95%;
+   }
+   
+   /* Main Content Styling */
+   .main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    animation: fadeIn 0.7s ease-in-out;
+   }
+   
+   .freelancing-work {
+    margin-bottom: 20px;
+   }
+   
+   .freelancing-textarea {
+    min-height: 100px;
+    min-width: 500px;
+    align-items: center;
+   }
+   .progress-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align content */
+    margin: 20px; /* Add margin for spacing */
+  }
+  
+  .progress-content {
+    width: 100%; /* Make sure the progress content takes the full width */
+    max-width: 600px; /* Limit the maximum width */
+    overflow: auto; /* Allow scrolling if content overflows */
+    margin-top: 10px; /* Add margin between button and chart */
+  }
+  
+   /* Progress Sections */
+   .progress-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+   }
+   
+   .progress-section,
+   .completed-progress-section {
+    flex: 1;
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   
+   .progress-button {
+    margin-right: 10px;
+   }
+   .progress-chart-container {
+    width: 60%;
+    height: 200px; /* Fixed height */
+    max-height: 300px; /* Set a maximum height to limit it */
+    overflow: hidden; /* Ensures the content doesn't overflow beyond the max height */
+   }
+   
+   
+   
+   /* Ongoing and Completed Progress Boxes */
+   .ongoing-progress-section,
+   .completed-progress-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 8px;
+   }
+   
+   /* Tech Stack Section */
+   .tech-stack-section {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   }
+   
+   .tech-stack-select select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+   }
+   
+   .tech-stack-select select:focus {
+    border-color: #007bff;
+   }
+   
+   .selected-tech-stacks {
+    margin-top: 10px;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   
+   .selected-tech-stacks span {
+    margin: 5px;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+   }
+   
+   .selected-tech-stacks span.remove-tag {
+    background-color: #e57373;
+    color: white;
+    cursor: pointer;
+    padding: 2px 5px;
+    margin-left: 5px;
+    font-size: 12px;
+   }
+   
+   /* Social Links */
+   .social-links {
+    display: flex;
+    gap: 10px;
+   }
+   
+   .social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    font-size: 1.5rem;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: background-color 0.3s ease;
+   }
+   
+   .social-links a:hover {
+    background-color: #f0f0f0;
+   }
+   
+   .social-icon {
+    width: 100%;
+    height: 100%;
+   }
+   
+   .social-links a:hover::before {
+    content: attr(title);
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+   }
+   
+   .social-links a:hover::before {
+    opacity: 1;
+   }
+   
+   /* Container for the whole tech stack section */
+   .selected-tech-stacks-container {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+   }
+   
+   /* Style for the select dropdown */
+   select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    background-color: #fff;
+    outline: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+   }
+   
+   select:focus {
+    border-color: #007bff;
+   }
+   
+   /* Style for the Save Tech Stacks button */
+   .save-tech-stacks-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   }
+   
+   .save-tech-stacks-btn:hover {
+    background-color: #218838;
+   }
+   
+   .save-tech-stacks-btn:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+   }
+   
+   /* Selected Tech Stacks section */
+   .selected-tech-stacks {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 10px;
+   }
+   
+   .selected-tech-stacks h4 {
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+   }
+   
+   /* Style for the unordered list of selected tech stacks */
+   .selected-tech-stacks ul {
+    list-style-type: none;
+    padding-left: 0;
+   }
+   
+   .selected-tech-stacks ul li {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 10px;
+   }
+   
+   .selected-tech-stacks ul li:hover {
+    background-color: #0056b3;
+   }
+   
+   
+   @keyframes fadeIn {
+    0% {
+    opacity: 0;
+    transform: translateY(20px);
+    }
+    100% {
+    opacity: 1;
+    transform: translateY(0);
+    }
+   }
+   
+   @media (min-width: 768px) {
+    .profile-page-container {
+    flex-direction: row;
+    }
+   }

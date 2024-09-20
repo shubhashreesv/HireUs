@@ -1,0 +1,108 @@
+.home-container {
+  font-family: Arial, sans-serif;
+  padding-top: 60px; /* Adjust for header height */
+}
+
+.home-header {
+  position: fixed; /* Fix the header to the top */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+  width: 100%; /* Full width */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: rgb(5, 36, 52); /* Set background color */
+  border-bottom: 1px solid #ddd; /* Optional border for separation */
+  z-index: 1000; /* Ensure it appears above other elements */
+  height: 80px;
+}
+
+.header-logo {
+  width: 20%;
+}
+
+a {
+  font-size: 20px;
+}
+
+a:hover {
+  color: white;
+}
+
+/* Header Styles */
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline */
+  margin: 0 15px; /* Space between links */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.nav-links a:hover {
+  color: #2ecc71; /* Change color on hover */
+}
+
+/* Profile Link */
+.profile-link {
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.profile-link:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Light background on hover */
+  color: #2ecc71; /* Change color on hover */
+}
+
+/* Log Out Button */
+.logout-button {
+  background-color: #e74c3c; /* Log out button color */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 15px; /* Button padding */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+.logout-button:hover {
+  background-color: #c0392b; /* Darker red on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Login Link */
+.login-link {
+  background-color: #3498db; /* Login button color */
+  color: white; /* Text color */
+  padding: 10px 15px; /* Button padding */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+.login-link:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Demo Button */
+.demo-button {
+  background-color: #f39c12; /* Demo button color */
+  color: white; /* Text color */
+  padding: 10px 15px; /* Button padding */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+.demo-button:hover {
+  background-color: #e67e22; /* Darker orange on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
