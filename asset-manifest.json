@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/HireUs/static/css/main.7320f817.css",
+    "main.js": "/HireUs/static/js/main.89a14dd4.js",
+    "static/media/hireus.png": "/HireUs/static/media/hireus.21408c6892a1323bc4c9.png",
+    "static/media/footer.jpg": "/HireUs/static/media/footer.1e9e2969bc8c17733a9c.jpg",
+    "index.html": "/HireUs/index.html",
+    "main.7320f817.css.map": "/HireUs/static/css/main.7320f817.css.map",
+    "main.89a14dd4.js.map": "/HireUs/static/js/main.89a14dd4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7320f817.css",
+    "static/js/main.89a14dd4.js"
+  ]
+}
